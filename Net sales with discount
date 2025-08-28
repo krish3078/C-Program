@@ -1,0 +1,11 @@
+#include<stdio.h> 
+int main()
+{
+    float Net,Gross,Deduction;
+    printf("Enter the gross sales:");
+    scanf("%f",&Gross);
+    Deduction =0.1;
+    Net = Gross - (  0.1 * Gross);
+    printf("Net sales is : %f - ( 0.10 * %f ) = %f\n",Gross,Gross,Net);
+    return 0;
+}
