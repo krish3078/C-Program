@@ -1,0 +1,13 @@
+#include<stdio.h>
+ int main()
+{
+    int a,Dollers,Pound ;
+    printf("Enter the Dollers  :");
+    scanf("%d",&a);
+    Dollers=a * 48;
+    printf("This given dollers into Rs is %d * %d = %d\n",a,48,Dollers);
+    Pound = a * 48 / 70 ;
+    printf("This given Rs into pound is %d * 48  / 70 = %d\n",a,Pound);
+    return 0;
+
+}
