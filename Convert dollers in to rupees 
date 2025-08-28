@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+    int a,Rs;
+    printf("Enter the dollers:");
+    scanf("%d",&a);
+    Rs=a*48;
+    printf("This given dollers into Rs is %d * %d = %d\n",a,48,Rs);
+    return 0;
+
+}
