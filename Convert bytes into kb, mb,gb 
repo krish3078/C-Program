@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    float bytes,kb,mb,gb;
+    printf("Enter the bytes:");
+    scanf("%f",&bytes);
+    kb= bytes/1024.0;
+    mb=kb/1024.0;
+    gb=mb/1024.0;
+    printf("The value in kb is %f / 1024 = %f\n",bytes,kb);
+    printf("The vlaue in mb is %f / 1024 = %f\n",kb,mb);
+    printf("The value in gb is %f / 1024 = %f\n",mb,gb);
+    return 0;
+}
