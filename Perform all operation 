@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+    int a,b,Add,Subtract,Multiply,Divide;
+    printf("Enter number of a:");
+    scanf("%d",&a);
+    printf("Enter number of b:");
+    scanf("%d",&b);
+    Add=a+b;
+    printf("%d + %d = %d\n",a,b,Add);
+    Subtract=a-b;
+    printf("%d - %d = %d\n",a,b,Subtract);
+    Multiply=a*b;
+    printf("%d * %d = %d\n",a,b,Multiply);
+    Divide=a/b;
+    printf("%d / %d = %d\n",a,b,Divide);
+    return 0;
+}
